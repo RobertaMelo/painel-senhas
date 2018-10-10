@@ -1,0 +1,10 @@
+.botoes-chamada {
+    top: 450px;
+    font-size: 100%;
+    background-image: linear-gradient(to bottom, #1e5da1, #2e6aad, #3c77b9, #4984c5, #5691d1);
+    height: 120px;
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+

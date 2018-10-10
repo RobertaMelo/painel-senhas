@@ -1,0 +1,29 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.img {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: #FFF;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to right top, #dbe7f9, #d8e9fb, #d5ecfc, #d2effd, #cff1fd);
+    font-size: 30px;
+    color: rgb(26, 55, 110);
+    padding-top: 10px;
+}
+
+.rodape-itens {
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to right top, #ffffff, #f4f6ff, #e1f0ff, #c9eaff, #aee6f9);
+    background-attachment: fixed;
+}

@@ -1,0 +1,19 @@
+<div class="container-fluid row">
+  <div class="col-1">
+      <a  [routerLink]="['/centralizador']">
+          <picture>
+            <source srcset="../../assets/img/best-logo.png" title="Banco Fictício" 
+              media="(min-width: 900px">
+            <img src="../../assets/img/best-bank.png" class="img">
+          </picture>
+        </a>
+    </div>
+  <h1 class="texto-inicial col-10"> Centralizador Painéis </h1>
+</div>
+<hr>
+<div class="col-12">
+    <button type="button" name="buttonChamarProximaSenha" (click)="navegaPainelUsuario()" class="btn btn-primary botoes-chamada col-4"> Painel Usuários (Retirar Senhas)</button>
+    <button type="button" name="buttonChamarSenhaAtual" (click)="navegaPainelSenhas()" class="btn btn-primary botoes-chamada col-4">Painel Senhas (Visualizar Chamada Senhas)</button>
+    <button type="button" name="buttonZerarSenhas" (click)="navegaPainelGerente()" class="btn btn-primary botoes-chamada col-4"> Painel Gerente (Administrar Chamada Senhas)</button>
+  </div>
+  

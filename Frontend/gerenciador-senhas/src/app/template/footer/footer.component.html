@@ -1,0 +1,9 @@
+<footer class="rodape col-12">
+  <div class="rodape-itens">
+    <i class="far fa-calendar-alt"></i>
+    {{clock | async | date: 'dd/MM/yyyy'}}
+    &nbsp;&nbsp;
+    {{clock | async | date: 'HH:mm:ss'}}
+    <i class="far fa-clock"></i>
+  </div>
+</footer>

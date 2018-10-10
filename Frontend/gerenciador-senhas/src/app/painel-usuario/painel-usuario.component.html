@@ -1,0 +1,25 @@
+<div class="container-fluid row">
+  <div class="col-1">
+    <a  [routerLink]="['/usuario']">
+        <picture>
+          <source srcset="../../assets/img/best-logo.png" title="Banco Fictício" 
+            media="(min-width: 900px">
+          <img src="../../assets/img/best-bank.png" class="img">
+        </picture>
+      </a>
+  </div>
+  <div class="col-11">
+    <h1 class="texto-inicial">Retire sua senha</h1>
+  </div>
+</div>
+<hr>
+<div>
+  <div class="col-3"></div>
+  <button type="button" (click)="geraSenhaNormal()" name="buttonSenhaNormal" class="btn btn-primary botao-n efeitoN col-3">Normal</button>
+  <button type="button" (click)="geraSenhaPreferencial()" name="buttonSenhaPreferencial" class="btn btn-primary botao-p efeitoP col-3">Preferencial</button>
+  <div class="col-3"></div>
+</div>
+<div class="row" *ngIf="senhaGerada" class="info-senha">
+  <h2 class="text-info-senha">Senha gerada: {{senhaGerada}}</h2> 
+</div>
+<app-footer></app-footer>

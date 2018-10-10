@@ -1,0 +1,26 @@
+<div>
+  <div class="container-fluid row">
+    <div class="col-1">
+        <a  [routerLink]="['/senhas']">
+            <picture>
+              <source srcset="../../assets/img/best-logo.png" title="Banco Fictício" 
+                media="(min-width: 900px">
+              <img src="../../assets/img/best-bank.png" class="img">
+            </picture>
+          </a>
+      </div>
+    <h1 class="texto-principal col-10"> Painel - Senhas </h1>
+  </div>
+  <div class="row senhas-titulo container-fluid col-12">
+    <h1 class="col-4 texto-senha-anterior-proxima">SENHA ANTERIOR</h1> 
+    <h1 class="col-4 texto-senha-atual">SENHA ATUAL</h1> 
+    <h1 class="col-4 texto-senha-anterior-proxima">PRÓXIMA SENHA</h1> 
+  </div>
+  <div class="row senhas-alinhamento container-fluid col-12">
+    <h1 id="senhaAnterior" class="senhas-anterior-proxima col-4">{{senhaAnterior}}</h1> 
+    <h1 id="senhaAtual" class="senha-atual col-4">{{senhaAtual}}</h1> 
+    <h1 id="senhaProxima" class="senhas-anterior-proxima col-4">{{senhaProxima}}</h1> 
+  </div>
+</div>
+<hr>
+<app-footer></app-footer>

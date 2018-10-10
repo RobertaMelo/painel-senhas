@@ -1,0 +1,67 @@
+.botao-n {
+    height: 180px;
+    top: 150px;
+    font-size: 200%;
+    background-image: linear-gradient(to bottom, #1e5da1, #2e6aad, #3c77b9, #4984c5, #5691d1);
+    margin-right: 10px;  
+}
+
+.botao-p {
+    height: 180px;
+    top: 150px;
+    font-size: 200%;
+    margin-left: 10px;  
+    background-image: linear-gradient(to bottom, #1ea179, #22ab84, #27b590, #2bbf9c, #30c9a8);
+}
+
+.texto-inicial {
+    margin-top: 50px;
+    font-size: 80px;
+    color: rgb(26, 55, 110);
+}
+
+.efeitoN:hover {
+    background: #ffff;
+    color:#104598;
+    box-shadow: inset 0 0 0 3px #104598;
+}
+.efeitoP:hover {
+    background: #ffff;
+    color:#10984b;
+    box-shadow: inset 0 0 0 3px #009c3d;
+}
+
+.info-senha {
+   padding-top: 200px; 
+   padding-left: 50px;
+}
+
+.text-info-senha {
+    color: #10984b;
+}
+@media screen and (max-width: 915){
+    h1 {
+        font-size: 80px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px){
+    h1 {
+        font-size: 40px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px){
+    h1 {
+        font-size: 20px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+}
